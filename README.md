@@ -21,8 +21,8 @@ The `Farcaster-to-BaseApp-channel-migrator` is a subscription-based ($100/month)
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com//farcaster-to-base-migrator.git
-   cd farcaster-to-base-migrator
+   https://github.com/Joymutheu-dev/Migrate-Farcaster-Channels-to-Base-App
+   cd farcasterchannels-to-base-migrator
    ```
 2. Install dependencies:
    ```bash
@@ -47,7 +47,7 @@ The `Farcaster-to-BaseApp-channel-migrator` is a subscription-based ($100/month)
    ```
 
 ## Usage
-1. **Subscribe**: Initiate a $100/month subscription via the `/subscribe` endpoint or Base App dashboard.
+1. **Subscribe**: Initiate a $100/month subscription via the Base App dashboard.
 2. **Authenticate**: Sign in using Sign In with Farcaster (SIWF).
 3. **Access Channels**: View channels like `/cryptobaddies` in the Base App.
 4. **Post Content**: Create posts in the Base App, selecting cross-posting channels (e.g., `/parenting`) for Farcaster.
