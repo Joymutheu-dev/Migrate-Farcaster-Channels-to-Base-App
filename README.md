@@ -1,11 +1,11 @@
 # Migrate-Farcaster-Channels-to-Base-App
-The `Farcaster-to-BaseApp-channel-migrator` is a subscription-based ($100/month) tool that enables seamless migration of Farcaster channels, such as `/cryptobaddies`, to the Base App, with bidirectional access and cross-posting to channels like `/parenting` on both platforms. Built with Node.js, TypeScript, and PostgreSQL, it integrates Farcaster’s Neynar API for channel data and Base’s Ethereum L2 blockchain for scalable, low-cost storage and subscription verification via smart contracts. Authenticated via Sign In with Farcaster, subscribed users can access channels, post content, and sync posts across Farcaster and Base, with Stripe handling payments. The goal of this repository is to provide a modular architecture, comprehensive API documentation, and robust security, fostering inclusive decentralized social networking.
+The `Farcaster-to-BaseApp-channel-migrator` is a subscription-based (100 USDC/month) tool that enables seamless migration of Farcaster channels, such as `/cryptobaddies`, to the Base App, with bidirectional access and cross-posting to channels like `/parenting` on both platforms. Built with Node.js, TypeScript, and PostgreSQL, it integrates Farcaster’s Neynar API for channel data and Base’s Ethereum L2 blockchain for scalable, low-cost storage and subscription verification via smart contracts. Authenticated via Sign In with Farcaster, subscribed users can access channels, post content, and sync posts across Farcaster and Base, with Base Pay payments. The goal of this repository is to provide a modular architecture, comprehensive API documentation, and robust security, fostering inclusive decentralized social networking.
 
 ## Features
 - **Channel Migration**: Migrate Farcaster channels (posts, members, metadata) to the Base App.
 - **Bidirectional Access**: View and interact with Farcaster channels in the Base App.
 - **Cross-Posting**: Post to a channel via Base and sync to specified Farcaster channels.
-- **Subscription Model**: $100/month subscription verified on-chain.
+- **Subscription Model**: 100 USDC subscription verified on-chain.
 - **Sign In with Farcaster (SIWF)**: Secure user authentication using Farcaster’s AuthKit.
 - **Base Integration**: Store channel and post data on Base for efficient transactions.
 - **Developer-Friendly**: OpenAPI documentation, SDKs, and modular codebase.
