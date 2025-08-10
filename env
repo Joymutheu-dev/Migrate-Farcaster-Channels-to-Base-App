@@ -1,0 +1,18 @@
+# Farcaster API (Neynar)
+NEYNAR_API_KEY=your_neynar_api_key_here
+
+# Base Blockchain Provider (Alchemy)
+BASE_PROVIDER_URL=https://base-mainnet.alchemyapi.io/v2/your_alchemy_api_key
+SUBSCRIPTION_CONTRACT_ADDRESS=0xYourSubscriptionContractAddress
+USDC_CONTRACT_ADDRESS=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+
+# Database (PostgreSQL)
+DATABASE_URL=postgresql://user:password@localhost:5432/farcaster_migrator
+
+# Redis for Caching
+REDIS_URL=redis://localhost:6379
+
+# Application
+PORT=3000
+JWT_SECRET=your_jwt_secret_for_authentication
+BASE_PAY_URL=https://pay.base.org/api
